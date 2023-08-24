@@ -31,7 +31,7 @@ This documentation helps you to understand all of the issues and how to's of AEM
     - [HTL](#)
     - [XML](#)
     - [Plain Old Java Object (POJO)](#)
-  - [Sample Components](#)
+  - [Sample Components](./aem-documentation/sample-components/sample-components.md)
     - [Listing](./aem-documentation/sample-components/listings/)
     - [Navigation](./aem-documentation/sample-components/navigationtext/)
 
