@@ -27,5 +27,6 @@ Welcome to the AEM Webmasters Documentation. This resource is designed to provid
 - **[Sample Components](./aem-documentation/sample-components/sample-components.md)**
   - [Listings](./aem-documentation/sample-components/listings/)
   - [Navigation Text](./aem-documentation/sample-components/navigationtext/)
+  - [Nimatabs](./aem-documentation/sample-components/nimatabs/)
 
 AEM encompasses a plethora of features, some of which might not be covered within these documentation pages. However, this comprehensive guide aims to equip you with the foundational basics and advanced knowledge required to embark on your AEM development journey.
