@@ -28,9 +28,11 @@ wknd
 3. Navigate to **`Tools`** > **`General`** > **`CRXDE Lite`**. For now, focus on CRXDE Lite as you will learn the other items later on.
    ![Navigation to CRXDE Lite](../files/image.png)
 4. Head to the **Package** section and select **Upload Package**.
+    <br><br>
    ![Package Section](../files/package.jpeg)
    ![Upload Package](../files/uploadpackage.jpeg)
-5. Browse your files and upload the **`aem-guides-wknd.all-2.1.4.zip`** package.
+6. Browse your files and upload the **`aem-guides-wknd.all-2.1.4.zip`** package.
+   <br><br>
    ![Upload Package](../files/browse.png)
 
 ### 3. Building the Project
