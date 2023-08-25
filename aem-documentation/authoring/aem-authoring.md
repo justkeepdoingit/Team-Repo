@@ -9,8 +9,8 @@ Welcome to the AEM Authoring Guide. This comprehensive resource is designed to h
 To begin, ensure you have a well-prepared development environment. Follow these steps:
 
 1. Create a designated folder for your AEM project.
-2. Download the **[aem-guides-wknd.all-2.1.4 and wknd](../files/)** zip file.
-3. Extract the contents of the **[wknd](../files/)** zip file into your designated folder, resulting in this file structure:
+2. Download the **[aem-guides-wknd.all-2.1.4 and wknd]** zip file (Please request from the team).
+3. Extract the contents of the **wknd** zip file into your designated folder, resulting in this file structure:
 
 ```
 wknd

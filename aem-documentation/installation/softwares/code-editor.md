@@ -13,6 +13,6 @@ Follow these steps to install the required software:
 
 **Next Step:**
 
-**[AEM Authoring]()**
+**[AEM Authoring](../../authoring/aem-authoring.md)**
 <br><br><br><br>
 _Go back [installation.md](../installation.md)_

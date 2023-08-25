@@ -9,7 +9,7 @@ Welcome to the comprehensive documentation for the **AEM Documentation** project
 
 ## Introduction
 
-Welcome to the AEM Webmasters Documentation. This resource is designed to provide comprehensive insight into the intricacies of Adobe Experience Manager (AEM). From project setup to component creation, this documentation covers all aspects. If you encounter any issues, bugs, or errors, rest assured they are documented here. Should you discover new issues, don't hesitate to contribute by listing any additional errors you identify.
+Welcome to the AEM Webmasters Documentation. This resource is designed to provide comprehensive insight into the foundation of Adobe Experience Manager (AEM). From project setup to component creation, this documentation covers all aspects. If you encounter any issues, bugs, or errors, rest assured they are documented here. Should you discover new issues, don't hesitate to contribute by listing any additional errors you identify.
 
 ## Getting Started
 
