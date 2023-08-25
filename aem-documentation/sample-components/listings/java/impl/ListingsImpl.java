@@ -32,9 +32,6 @@ public class ListingsImpl implements Listings {
     @ValueMapValue
     private String text;
 
-    @ValueMapValue
-    private List<String> listings;
-
     @Override
     public String getText() {
         return text;
