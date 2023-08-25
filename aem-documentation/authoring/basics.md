@@ -31,3 +31,7 @@ Before you begin, it's highly recommended to consult the [Adobe Experience Leagu
 If you're ready to dive deeper into AEM's Page Authoring capabilities, we recommend watching the [AEM Tutorial Series](https://www.youtube.com/watch?v=Wq1uUIx55XE&list=PLEaEQSM_Y4tkUG33kZ59VohXwnTG4k8Ty&index=1&ab_channel=AEMGEEKS). Watch **Tutorial #6 - 18** as this provides comprehensive insights into Page Authoring.
 
 Remember, mastery takes time, so take your journey step by step. Happy learning!
+
+## Next Steps
+
+Ready for the next stage? Move on to [Advanced Topics](./advanced-topics/advanced-topics.md), where we'll explore the advanced topics to help you become proficient in AEM Development.

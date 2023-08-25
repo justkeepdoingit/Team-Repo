@@ -32,6 +32,44 @@ wknd
    ![Upload Package](../files/uploadpackage.jpeg)
 5. Browse your files and upload the **`aem-guides-wknd.all-2.1.4.zip`** package.
    ![Upload Package](../files/browse.png)
+
+### 3. Building the Project
+
+1. Post installation, navigate to the **`aem-guides-wknd`** folder. Locate the **pom.xml** file.
+2. Identify **nodeVersion** and **npmVersion**, modifying the values to reflect the versions installed on your local system.
+3. Open your Command Prompt (CMD) or Git Bash, directing the terminal to your **`aem-guides-wknd`** folder.
+4. Execute the following command to build your project:
+
+```
+mvn clean install -PautoInstallPackage
+```
+
+It takes some time for the build to finish and should end like this:
+
+```
+...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for WKND Sites Project 0.0.1-SNAPSHOT:
+[INFO]
+[INFO] WKND Sites Project ................................. SUCCESS [  0.113 s]
+[INFO] WKND Sites Project - Core .......................... SUCCESS [  3.136 s]
+[INFO] WKND Sites Project - UI Frontend ................... SUCCESS [  4.461 s]
+[INFO] WKND Sites Project - Repository Structure Package .. SUCCESS [  0.359 s]
+[INFO] WKND Sites Project - UI apps ....................... SUCCESS [  1.732 s]
+[INFO] WKND Sites Project - UI content .................... SUCCESS [  0.956 s]
+[INFO] WKND Sites Project - UI config ..................... SUCCESS [  0.064 s]
+[INFO] WKND Sites Project - All ........................... SUCCESS [  8.229 s]
+[INFO] WKND Sites Project - Integration Tests ............. SUCCESS [  3.329 s]
+[INFO] WKND Sites Project - Dispatcher .................... SUCCESS [  0.027 s]
+[INFO] WKND Sites Project - UI Tests ...................... SUCCESS [  0.032 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  23.189 s
+[INFO] Finished at: 2023-01-10T11:12:23-05:00
+[INFO] ------------------------------------------------------------------------
+```
+
 6. Finally, go to **`Navigation`** > **`Sites`** to find the **`WKND`** site, which you can use for practice.
    ![Navigation to Sites](../files/navigation.jpeg)
    ![Sites](../files/sites.jpeg)
