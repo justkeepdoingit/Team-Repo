@@ -1,0 +1,20 @@
+<!--/* nimatabs.html */-->
+<div
+  data-sly-use.nimatabs="com.adobe.aem.guides.wknd.core.models.Nimatabs"
+  data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"
+  data-sly-test.hasContent="${!nimatabs.empty}"
+  class="nimatabs"
+>
+  <div
+    data-sly-resource="${ '.' @ resourceType = 'core/wcm/components/image/v2/image' }"
+    class="nimatabs__img"
+  ></div>
+  <h2 class="nimatabs__title">${nimatabs.title}</h2>
+  <div class="nimatabs__details">
+    <div class="nimatabs__details-text">${nimatabs.text}</div>
+    <div class="nimatabs__details-id">${nimatabs.id}</div>
+  </div>
+</div>
+<sly
+  data-sly-call="${placeholderTemplate.placeholder @ isEmpty=!hasContent}"
+></sly>
