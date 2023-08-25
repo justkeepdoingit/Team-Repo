@@ -1,0 +1,23 @@
+<div class="cmp-navigationtext" data-cmp-is="navigationtext">
+  <div data-sly-use.nav="com.adobe.aem.guides.wknd.core.models.NavigationText">
+    <div
+      class="cmp-navigationtext__links-container ${nav.getSelectAlign}"
+      data-sly-list.navLinks="${nav.getNavigationText}"
+      style="gap: ${properties.flexGap @ context='styleToken'}px"
+    >
+      <div class="cmp-navigationtext__links">
+        <a
+          class="cmp-navigationtext__link-text ${nav.getSelectSize} ${properties.selectWeight}"
+          href="${navLinks.urlPath @ context='uri'}"
+          style="color: ${properties.textColor @ context='styleToken'}"
+        >
+          ${navLinks.navigationName}
+        </a>
+        <div
+          class="cmp-navigationtext__underline"
+          style="background-color: ${properties.underlineColor @ context='styleToken'}; height: ${properties.underlineHeight @ context='styleToken'}px"
+        ></div>
+      </div>
+    </div>
+  </div>
+</div>

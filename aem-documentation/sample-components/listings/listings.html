@@ -1,0 +1,44 @@
+<div
+  class="cmp-listing"
+  data-cmp-is="listing"
+  data-sly-use.listings="com.adobe.aem.guides.wknd.core.models.Listings"
+>
+  <h2 class="cmp-listing__title">${listings.text}</h2>
+  <div
+    class="cmp-listing__data-container"
+    data-sly-list.listingData="${listings.getListings}"
+  >
+    <div class="cmp-listing__container">
+      <div class="cmp-listing__image-overlay">
+        <div class="cmp-listing__image-container">
+          <div class="cmp-listing__overlay"></div>
+          <picture class="cmp-listing__image">
+            <img
+              type="image/webp"
+              data-sly-attribute.src="${listingData.image}"
+              loading="lazy"
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="cmp-listing__info-container">
+        <h2 class="cmp-listing__price">$${listingData.price}</h2>
+        <h3 class="cmp-listing__address">${listingData.address}</h3>
+        <div class="cmp-listing__info-grid">
+          <div class="cmp-listing__info-items">
+            <span class="material-symbols-rounded icons"> bed </span>
+            ${listingData.beds} Beds
+          </div>
+          <div class="cmp-listing__info-items">
+            <span class="material-symbols-rounded icons"> bathtub </span
+            >${listingData.bath} Baths
+          </div>
+          <div class="cmp-listing__info-items">
+            <span class="material-symbols-rounded icons"> square_foot </span
+            >${listingData.sqft} Sqft
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
