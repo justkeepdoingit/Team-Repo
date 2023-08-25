@@ -22,18 +22,14 @@ This documentation helps you to understand all of the issues and how to's of AEM
   - [Maven Plugin](./aem-documentation/installation/softwares/maven.md)
   - [Java](./aem-documentation/installation/softwares/java.md)
   - [Code Editor](./aem-documentation/installation/softwares/code-editor.md)
-- **[AEM Authoring](#)**
-  - [Basics](#)
-  - [Templates](#)
-  - [Components](#)
-- **[Advanced Topics](#)**
-  - [Custom Components](#)
-    - [HTL](#)
-    - [XML](#)
-    - [Plain Old Java Object (POJO)](#)
-  - [Sample Components](./aem-documentation/sample-components/sample-components.md)
-    - [Listing](./aem-documentation/sample-components/listings/)
-    - [Navigation](./aem-documentation/sample-components/navigationtext/)
+- **[AEM Authoring](./aem-documentation/authoring/)**
+  - [Basics](./aem-documentation/authoring/basics.md)
+  - [Advanced Topics](#)
+    - [Maven Achetype](#)
+    - [Custom Components](#)
+- **[Sample Components](./aem-documentation/sample-components/sample-components.md)**
+  - [Listing](./aem-documentation/sample-components/listings/)
+  - [Navigation](./aem-documentation/sample-components/navigationtext/)
 
 ## Contributing
 
